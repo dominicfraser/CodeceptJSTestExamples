@@ -1,0 +1,17 @@
+{
+  "name": "codeceptjstestexamples",
+  "version": "1.0.0",
+  "description": "Examples of using CodeceptJS BDD tests",
+  "author": "Dominic Fraser",
+  "license": "ISC",
+  "scripts": {
+    "lint:js": "eslint . --ext js,jsx",
+    "lint:js:fix": "eslint . --ext js,jsx --fix",
+    "test:e2e": "codeceptjs run --steps --config=./e2eTests/puppeteer.conf.js"
+  },
+  "devDependencies": {
+    "codeceptjs": "^2.0.4",
+    "eslint-config-skyscanner-with-prettier": "^0.7.0",
+    "puppeteer": "^1.12.1"
+  }
+}

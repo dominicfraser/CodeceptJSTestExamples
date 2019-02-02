@@ -1,0 +1,13 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+      "skyscanner-with-prettier"
+  ],
+  "rules": {
+    "max-len": [
+      "warn",
+      140
+    ],
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
+  }
+}
