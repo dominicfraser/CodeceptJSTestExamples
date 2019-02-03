@@ -7,7 +7,8 @@
   "scripts": {
     "lint:js": "eslint . --ext js,jsx",
     "lint:js:fix": "eslint . --ext js,jsx --fix",
-    "test:e2e": "codeceptjs run --steps --config=./e2eTests/puppeteer.conf.js"
+    "test:e2e:.....": "codeceptjs run --steps --config=./e2eTests/configs/puppeteer.conf.js",
+    "test:e2e:pause": "codeceptjs run --steps --config=./e2eTests/configs/puppeteer_pause.conf.js",
   },
   "devDependencies": {
     "codeceptjs": "^2.0.4",
