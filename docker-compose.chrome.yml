@@ -1,0 +1,9 @@
+version: "2"
+services:
+  chrome-container:
+    container_name: chrome-container
+    image: selenium/standalone-chrome:3.141.59-europium
+    volumes:
+      - /dev/shm:/dev/shm
+    ports:
+      - "4444:4444"

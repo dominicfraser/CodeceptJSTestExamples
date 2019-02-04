@@ -9,10 +9,13 @@
     "lint:js:fix": "eslint . --ext js,jsx --fix",
     "test:e2e:.....": "codeceptjs run --steps --config=./e2eTests/configs/puppeteer.conf.js",
     "test:e2e:pause": "codeceptjs run --steps --config=./e2eTests/configs/puppeteer_pause.conf.js",
+    "test:e2e:ch:puppeteer": "codeceptjs run --steps --config=./e2eTests/configs/puppeteer_ch.conf.js",
+    "test:e2e:ch:webdriver": "codeceptjs run --steps --config=./e2eTests/configs/webdriver_ch.conf.js"
   },
   "devDependencies": {
     "codeceptjs": "^2.0.4",
     "eslint-config-skyscanner-with-prettier": "^0.7.0",
-    "puppeteer": "^1.12.1"
+    "puppeteer": "^1.12.1",
+    "webdriverio": "^5.4.13"
   }
 }
