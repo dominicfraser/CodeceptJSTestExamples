@@ -1,4 +1,4 @@
-This is a repository of examples of customising CodeceptJS tests. It is paired with [this article]() (TODO). Each example has a different test command:
+This is a repository of examples of customising CodeceptJS tests. It is paired with [this article](https://codeburst.io/customising-codeceptjs-e2e-tests-1a2bf5f32f51?source=friends_link&sk=767140b587a6efd9d71f9e06c5dc3c4b). Each example has a different test command:
 
 ### Pause Example
 ```
